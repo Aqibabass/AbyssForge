@@ -21,49 +21,49 @@ export const assets = {
 };
 
 export const AiToolsData = [
-    {
-        title: 'AI Article Writer',
-        description: 'Generate high-quality, engaging articles on any topic with our AI writing technology.',
-        Icon: SquarePen,
-        bg: { from: '#3588F2', to: '#0BB0D7' },
-        path: '/ai/write-article'
-    },
-    {
-        title: 'Blog Title Generator',
-        description: 'Find the perfect, catchy title for your blog posts with our AI-powered generator.',
-        Icon: Hash,
-        bg: { from: '#B153EA', to: '#E549A3' },
-        path: '/ai/blog-titles'
-    },
-    {
-        title: 'AI Image Generation',
-        description: 'Create stunning visuals with our AI image generation tool, Experience the power of AI ',
-        Icon: Image,
-        bg: { from: '#20C363', to: '#11B97E' },
-        path: '/ai/generate-images'
-    },
-    {
-        title: 'Background Removal',
-        description: 'Effortlessly remove backgrounds from your images with our AI-driven tool.',
-        Icon: Eraser,
-        bg: { from: '#F76C1C', to: '#F04A3C' },
-        path: '/ai/remove-background'
-    },
-    {
-        title: 'Object Removal',
-        description: 'Remove unwanted objects from your images seamlessly with our AI object removal tool.',
-        Icon: Scissors,
-        bg: { from: '#5C6AF1', to: '#427DF5' },
-        path: '/ai/remove-object'
-    },
-    {
-        title: 'Resume Reviewer',
-        description: 'Get your resume reviewed by AI to improve your chances of landing your dream job.',
-        Icon: FileText,
-        bg: { from: '#12B7AC', to: '#08B6CE' },
-        path: '/ai/review-resume'
-    }
-]
+  {
+    title: 'Abyss Writer',
+    description: 'Craft deep, meaningful articles using the power of AI and the depth of the Abyss.',
+    Icon: SquarePen,
+    bg: { from: '#1F2937', to: '#4B5563' }, // dark theme
+    path: '/ai/abyss-writer'
+  },
+  {
+    title: 'Void Title Generator',
+    description: 'Generate gripping blog titles that emerge from the creative void.',
+    Icon: Hash,
+    bg: { from: '#6B21A8', to: '#D946EF' },
+    path: '/ai/void-titles'
+  },
+  {
+    title: 'DreamWeaver (AI Images)',
+    description: 'Summon surreal visuals from your imagination using our AI dream engine.',
+    Icon: Image,
+    bg: { from: '#0F766E', to: '#14B8A6' },
+    path: '/ai/dreamweaver'
+  },
+  {
+    title: 'Phantom Remover',
+    description: 'Erase unwanted backgrounds with precision—like they never existed.',
+    Icon: Eraser,
+    bg: { from: '#EA580C', to: '#EF4444' },
+    path: '/ai/phantom-remover'
+  },
+  {
+    title: 'Specter Scissors',
+    description: 'Effortlessly remove objects from images as if cut by spectral hands.',
+    Icon: Scissors,
+    bg: { from: '#6366F1', to: '#3B82F6' },
+    path: '/ai/specter-scissors'
+  },
+  {
+    title: 'Abyssal Resume Critic',
+    description: 'Let the Abyss judge your resume and reveal its deepest flaws.',
+    Icon: FileText,
+    bg: { from: '#0EA5E9', to: '#06B6D4' },
+    path: '/ai/resume-critic'
+  }
+];
 
 export const dummyTestimonialData = [
     {

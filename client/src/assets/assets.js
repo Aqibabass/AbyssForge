@@ -23,45 +23,45 @@ export const assets = {
 export const AiToolsData = [
   {
     title: 'Abyss Writer',
-    description: 'Craft deep, meaningful articles using the power of AI and the depth of the Abyss.',
+    description: 'Craft deep, meaningful articles using the power of AI.',
     Icon: SquarePen,
     bg: { from: '#1F2937', to: '#4B5563' }, // dark theme
-    path: '/ai/abyss-writer'
+   path: '/ai/write-article'
   },
   {
     title: 'Void Title Generator',
     description: 'Generate gripping blog titles that emerge from the creative void.',
     Icon: Hash,
     bg: { from: '#6B21A8', to: '#D946EF' },
-    path: '/ai/void-titles'
+     path: '/ai/blog-titles'
   },
   {
     title: 'DreamWeaver (AI Images)',
     description: 'Summon surreal visuals from your imagination using our AI dream engine.',
     Icon: Image,
     bg: { from: '#0F766E', to: '#14B8A6' },
-    path: '/ai/dreamweaver'
+    path: '/ai/generate-images'
   },
   {
     title: 'Phantom Remover',
-    description: 'Erase unwanted backgrounds with precision—like they never existed.',
+    description: 'Erase unwanted backgrounds with precision like they never existed.',
     Icon: Eraser,
     bg: { from: '#EA580C', to: '#EF4444' },
-    path: '/ai/phantom-remover'
+    path: '/ai/remove-background'
   },
   {
     title: 'Specter Scissors',
     description: 'Effortlessly remove objects from images as if cut by spectral hands.',
     Icon: Scissors,
     bg: { from: '#6366F1', to: '#3B82F6' },
-    path: '/ai/specter-scissors'
+    path: '/ai/remove-object'
   },
   {
     title: 'Abyssal Resume Critic',
     description: 'Let the Abyss judge your resume and reveal its deepest flaws.',
     Icon: FileText,
     bg: { from: '#0EA5E9', to: '#06B6D4' },
-    path: '/ai/resume-critic'
+    path: '/ai/review-resume'
   }
 ];
 

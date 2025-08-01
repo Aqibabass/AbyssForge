@@ -41,7 +41,7 @@ const AiTools = () => {
             return (
               <div 
                 key={index} 
-                className="p-8 m-4 max-w-xs rounded-lg bg-[#FDFDFE] shadow-lg border border-gray-100 hover:-translate-y-1 transition-all duration-300 ease-in-out cursor-pointer" 
+                className="p-8 m-4 max-w-xs rounded-lg bg-[#FDFDFE] shadow-lg border border-gray-100 hover:-translate-y-1 hover:shadow-2xl transition-all duration-300 ease-in-out cursor-pointer" 
                 onClick={() => user && navigate(tool.path)}
               >
                 <div className="icon-container mb-4">

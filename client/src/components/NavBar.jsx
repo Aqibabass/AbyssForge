@@ -14,12 +14,12 @@ const NavBar = () => {
     flex justify-between items-center py-3 px-4 
     sm:px-20 xl:px-32 "
     >
-      <div className="flex items-center gap-2 cursor-pointer ">
+      <div className="flex items-center gap-2 cursor-pointer  "onClick={() => navigate("/")}>
         <img
           src={assets.logo}
           alt="AbyssForge Logo"
           className="size-7"
-          onClick={() => navigate("/")}
+          
         />
         <span className={`font-bold text-xl }`}>AbyssForge</span>
       </div>

@@ -26,7 +26,7 @@ const {signOut, openUserProfile} = useClerk();
         <img src={user?.imageUrl} alt='user avatar' className='w-12 rounded-full 
         mx-auto'/>
         <h1 className='mt-1 text-center'>{user?.fullName}</h1>
-<div>
+<div className='px-6 mt-5 text-sm text-gray-600 font font-medium'>
     {navItems.map(({to,label,Icon}) => (
         <NavLink key={to} to={to} end={to==='/ai'}
          onClick={() => setSidebar(false)} className={({isActive}) => `px-3.5

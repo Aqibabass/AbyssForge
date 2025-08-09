@@ -17,7 +17,7 @@ const Layout = () => {
       justify-between border-b border-gray-200"
       >
         <div
-          className="flex items-center gap-2 cursor-pointer "
+          className="flex items-center gap-2 cursor-pointer w-32 sm:w-44 "
           onClick={() => navigate("/")}
         >
           <img src={assets.logo} alt="AbyssForge Logo" className="size-7" />

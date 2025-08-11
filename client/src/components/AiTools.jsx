@@ -11,10 +11,10 @@ const AiTools = () => {
   console.log("AiToolsData:", AiToolsData);
   
   return (
-    <div className="px-4 sm:px-20 xl:px-32 my-8">
+    <div className="max-w-2xl mx-auto px-8 md:px-20 lg:px-32 xl:px-40 my-20">
       <div className="text-center">
-        <h2 className="text-slate-700 text-[42px] font-semibold">Powerful AI Tools</h2>
-        <p className="text-gray-500 max-w-lg mx-auto">
+        <h2 className="text-slate-700 text-[42px] font-semibold mb-4">Powerful AI Tools</h2>
+        <p className="text-gray-500 max-w-lg mx-auto mb-8">
           Everything you need to create, enhance, and optimize your content with
           cutting-edge AI technology.
         </p>

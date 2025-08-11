@@ -6,22 +6,22 @@ const Footer = () => {
   const navigate = useNavigate();
 
   return (
-    <footer className="px-6 md:px-16 lg:px-24 xl:px-32 pt-8 w-full text-gray-500 mt-20">
-      <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500/30 pb-6">
+    <footer className="px-8 md:px-20 lg:px-32 xl:px-40  w-full text-gray-500 mt-24">
+      <div className="flex flex-col md:flex-row justify-between w-full gap-12 border-b border-gray-500/30 pb-8">
         <div className="md:max-w-96">
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => navigate("/")}>
+          <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate("/")}>
             <img className="h-9" src={assets.logo} alt="AbyssForge Logo" />
             <span className="font-bold text-xl">AbyssForge</span>
           </div>
-          <p className="mt-6 text-sm">
+          <p className="mt-8 text-sm">
             Forge your creativity in the depths of AI. Where imagination meets innovation,
             <br />
             and the abyss becomes your canvas for limitless possibilities.
           </p>
         </div>
-        <div className="flex-1 flex items-start md:justify-end gap-20">
+        <div className="flex-1 flex-wrap lg:flex items-start md:justify-end gap-24">
           <div>
-            <h2 className="font-semibold mb-5 text-gray-800">Navigation</h2>
+            <h2 className="font-semibold mb-4 text-gray-800">Navigation</h2>
             <ul className="text-sm space-y-2">
               <li>
                 <a href="/" className="hover:text-primary transition-colors duration-200">Home</a>
@@ -38,7 +38,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="font-semibold mb-5 text-gray-800">AI Tools</h2>
+            <h2 className="font-semibold mb-4 mt-4 text-gray-800">AI Tools</h2>
             <ul className="text-sm space-y-2">
               <li>
                 <a href="/ai/write-article" className="hover:text-primary transition-colors duration-200">Abyss Writer</a>
@@ -55,21 +55,19 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="font-semibold text-gray-800 mb-5">
-              Join the Forge
-            </h2>
+            <h2 className="font-semibold text-gray-800 mb-4 mt-4">Join the Forge</h2>
             <div className="text-sm space-y-2">
               <p>
                 Get the latest updates from the abyss. New tools, features, and creative insights
                 delivered to your realm.
               </p>
-              <div className="flex items-center gap-2 pt-4">
+              <div className="flex items-center gap-3 pt-6">
                 <input
-                  className="border border-gray-500/30 placeholder-gray-500 focus:ring-2 ring-primary outline-none w-full max-w-64 h-9 rounded px-2 bg-white/50"
+                  className="border border-gray-500/30 placeholder-gray-500 focus:ring-2 ring-primary outline-none w-full max-w-64 h-10 rounded px-3 bg-white/50"
                   type="email"
                   placeholder="Enter your email"
                 />
-                <button className="bg-primary w-24 h-9 text-white rounded cursor-pointer hover:bg-red-700 transition-colors duration-300">
+                <button className="bg-primary w-28 h-10 text-white rounded cursor-pointer hover:bg-red-700 transition-colors duration-300">
                   Subscribe
                 </button>
               </div>
@@ -77,7 +75,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="pt-4 text-center text-xs md:text-sm pb-5">
+      <p className="pt-6 text-center text-xs md:text-sm pb-8">
         {new Date().getFullYear()} © AbyssForge. All Rights Reserved. | Forged in the depths of creativity.
       </p>
     </footer>

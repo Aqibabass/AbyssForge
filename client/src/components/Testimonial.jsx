@@ -69,11 +69,11 @@ const Testimonial = () => {
 
     return (
         <>
-        <div className="px-4 sm:px-20 xl:px-32 my-24">
+      
+             <div className="max-w-2xl my-20 mx-auto px-8 md:px-20 lg:px-32 xl:px-40">
       <div className="text-center">
-        <h2 className="text-slate-700 text-[42px] font-semibold">Your Vision. Our Platform. Their Stories.
-</h2>
-        <p className="text-gray-500 max-w-lg mx-auto">
+        <h2 className="text-slate-700 text-[42px] font-semibold mb-4">Your Vision. Our Platform. Their Stories.</h2>
+        <p className="text-gray-500 max-w-lg mx-auto mb-8">
          Discover how creators are bringing ideas to life with AbyssForge
         </p>
       </div>

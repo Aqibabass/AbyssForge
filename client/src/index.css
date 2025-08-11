@@ -12,3 +12,13 @@
   height: 100%;
   position: relative;
 }
+.reset-tw, .reset-tw *{
+  all: revert !important;
+}
+.cl-drawerRoot{
+  z-index: 1000;
+}
+.text-sm {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
+}

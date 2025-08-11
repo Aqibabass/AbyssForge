@@ -6,9 +6,9 @@ const Footer = () => {
   const navigate = useNavigate();
 
   return (
-    <footer className="px-8 md:px-20 lg:px-32 xl:px-40  w-full text-gray-500 mt-24">
+    <footer className="px-6 sm:px-12 lg:px-24 w-full text-gray-500 mt-24">
       <div className="flex flex-col md:flex-row justify-between w-full gap-12 border-b border-gray-500/30 pb-8">
-        <div className="md:max-w-96">
+        <div className="md:max-w-sm">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate("/")}>
             <img className="h-9" src={assets.logo} alt="AbyssForge Logo" />
             <span className="font-bold text-xl">AbyssForge</span>
@@ -19,7 +19,9 @@ const Footer = () => {
             and the abyss becomes your canvas for limitless possibilities.
           </p>
         </div>
-        <div className="flex-1 flex-wrap lg:flex items-start md:justify-end gap-24">
+        {/* Links and Newsletter Section */}
+        <div className="flex-1 flex flex-col sm:flex-row sm:flex-wrap justify-between gap-10 sm:gap-16 lg:gap-24 sm:justify-end">
+          {/* Navigation Links */}
           <div>
             <h2 className="font-semibold mb-4 text-gray-800">Navigation</h2>
             <ul className="text-sm space-y-2">
@@ -37,8 +39,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          {/* AI Tools Links
           <div>
-            <h2 className="font-semibold mb-4 mt-4 text-gray-800">AI Tools</h2>
+            <h2 className="font-semibold mb-4 text-gray-800">AI Tools</h2>
             <ul className="text-sm space-y-2">
               <li>
                 <a href="/ai/write-article" className="hover:text-primary transition-colors duration-200">Abyss Writer</a>
@@ -54,20 +57,23 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <h2 className="font-semibold text-gray-800 mb-4 mt-4">Join the Forge</h2>
+           */}
+          {/* Newsletter Section */}
+          <div className="sm:max-w-sm">
+            <h2 className="font-semibold text-gray-800 mb-4">Join the Forge</h2>
             <div className="text-sm space-y-2">
               <p>
                 Get the latest updates from the abyss. New tools, features, and creative insights
                 delivered to your realm.
               </p>
-              <div className="flex items-center gap-3 pt-6">
+              {/* Responsive Input Group */}
+              <div className="flex flex-col sm:flex-row items-center gap-3 pt-6">
                 <input
-                  className="border border-gray-500/30 placeholder-gray-500 focus:ring-2 ring-primary outline-none w-full max-w-64 h-10 rounded px-3 bg-white/50"
+                  className="border border-gray-500/30 placeholder-gray-500 focus:ring-2 ring-primary outline-none w-full h-10 rounded px-3 bg-white/50"
                   type="email"
                   placeholder="Enter your email"
                 />
-                <button className="bg-primary w-28 h-10 text-white rounded cursor-pointer hover:bg-red-700 transition-colors duration-300">
+                <button className="bg-primary w-full sm:w-auto sm:px-6 h-10 text-white rounded cursor-pointer hover:bg-red-700 transition-colors duration-300 shrink-0">
                   Subscribe
                 </button>
               </div>

@@ -1,0 +1,24 @@
+# Dependency folders
+node_modules/
+
+# Build outputs
+/dist/
+/client/dist/
+/server/dist/
+
+# Environment files
+.env
+/client/.env
+/server/.env
+
+# Log files
+*.log
+logs/
+
+# OS and editor artifacts
+.DS_Store
+.vscode/
+.idea/
+
+# Misc
+*.local

@@ -154,11 +154,9 @@ export const removeImageBackground = async (req, res) => {
         const { secure_url } = await cloudinary.uploader.upload(image.path, {
             transformation: [
                 {
-                    effect: "background_removal",
-                    background_removal: "remove_the_background"
+                    effect: "remove_the_background"
                 }
             ]
-
         });
 
 

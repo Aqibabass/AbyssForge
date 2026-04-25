@@ -16,7 +16,7 @@ const Testimonial = () => {
       handle: "@yo_mrwhite",
       date: "April 5, 2025",
       quote:
-        "This platform? It’s tight. It’s like a digital lab — and I'm cookin' ideas now, bitch!",
+        "Yo, this platform? It’s tight. It’s like a straight-up digital lab — and I'm cookin' ideas now!"
     },
     {
       image:
